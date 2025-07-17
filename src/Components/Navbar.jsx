@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Home.css"
+import "./Navbar.css"
 
 import { Terminal, Github , Twitter } from "lucide-react";
 
@@ -9,7 +9,6 @@ const Home = () => {
         <div className='left'>
         <p>Sangram </p>
         <span><Terminal className="ml-3 w-6 h-6 text-green-500" /></span>
-
         </div>
         
       <nav>
