@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: OutFit;
+
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.back-div{
+   border: 2px solid red;
+   padding: 10px;
+   box-shadow: 2px 2px;
+   border-radius: 20px;
+}
+
+nav >a:first-child{
+    background-color: red;
+    padding: 3px;
+    border-radius: 20px;
+    color: white;
+}
+
+nav{
+  display: flex;
+  gap: 20px;
+  color: rgb(156, 105, 105);
+}
+
+
+.back-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-icon{
+    display: flex;
+    gap: 20px;
+}
